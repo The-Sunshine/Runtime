@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D955CC8D21781C4A00B7E188 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D955CC8C21781C4A00B7E188 /* Person.m */; };
 		D988A2922174271000A8EBBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D988A2912174271000A8EBBD /* AppDelegate.m */; };
 		D988A2952174271000A8EBBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D988A2942174271000A8EBBD /* ViewController.m */; };
 		D988A2982174271000A8EBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D988A2962174271000A8EBBD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		D988A2A02174271200A8EBBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D988A29F2174271200A8EBBD /* main.m */; };
 		D988A2AA2174271200A8EBBD /* method_swizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D988A2A92174271200A8EBBD /* method_swizzlingTests.m */; };
 		D988A2B52174271200A8EBBD /* method_swizzlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D988A2B42174271200A8EBBD /* method_swizzlingUITests.m */; };
+		D988A2C421742A2100A8EBBD /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D988A2C321742A2100A8EBBD /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D955CC8B21781C4A00B7E188 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D955CC8C21781C4A00B7E188 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		D988A28D2174271000A8EBBD /* method-swizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "method-swizzling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D988A2902174271000A8EBBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D988A2912174271000A8EBBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		D988A2B02174271200A8EBBD /* method-swizzlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "method-swizzlingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D988A2B42174271200A8EBBD /* method_swizzlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = method_swizzlingUITests.m; sourceTree = "<group>"; };
 		D988A2B62174271200A8EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D988A2C221742A2100A8EBBD /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		D988A2C321742A2100A8EBBD /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				D988A2912174271000A8EBBD /* AppDelegate.m */,
 				D988A2932174271000A8EBBD /* ViewController.h */,
 				D988A2942174271000A8EBBD /* ViewController.m */,
+				D955CC8B21781C4A00B7E188 /* Person.h */,
+				D955CC8C21781C4A00B7E188 /* Person.m */,
+				D988A2C221742A2100A8EBBD /* SecondVC.h */,
+				D988A2C321742A2100A8EBBD /* SecondVC.m */,
 				D988A2962174271000A8EBBD /* Main.storyboard */,
 				D988A2992174271200A8EBBD /* Assets.xcassets */,
 				D988A29B2174271200A8EBBD /* LaunchScreen.storyboard */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D955CC8D21781C4A00B7E188 /* Person.m in Sources */,
 				D988A2952174271000A8EBBD /* ViewController.m in Sources */,
 				D988A2A02174271200A8EBBD /* main.m in Sources */,
+				D988A2C421742A2100A8EBBD /* SecondVC.m in Sources */,
 				D988A2922174271000A8EBBD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
